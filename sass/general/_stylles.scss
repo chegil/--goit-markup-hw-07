@@ -1,0 +1,56 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p { margin: 0;
+}
+
+.conteiner { width: 1170px;
+margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;}
+
+* { text-decoration: none;}
+
+:root { 
+    --basic-colour:#212121;
+    --minor-colour:#2196F3;
+    --contacts-coluor:#757575;
+    --logo-colour:#000000; 
+    --button-colour:#F5F4FA;
+    --text-wite:#FFFFFF; 
+    --fon-colour: #F5F5F5;
+    --footer-colour:rgba(255, 255, 255, 0.6);
+    --button-active: #188CE8;
+    --sectiom-dark-:#2F303A;
+    --box-shadow-cart :0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    --sicial-colour-:#AFB1B8;
+    --company-colour--: #AFB1B8;
+    --linear-gradient-about--:rgba(47, 48, 58, 0.4);
+    --icon-footer--: rgba(255, 255, 255, 0.1);
+    --hover-card--:box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
+
+body { 
+ color:var(--basic-colour);
+ font-family: 'Roboto' , sans-serif; 
+ font-style: normal;
+margin: 0px;}
+ 
+ /* загального використання */
+ .visually-hidden { position: absolute;
+        white-space: nowrap;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        margin: -1px;}
+ 
+        .list {list-style: none;}

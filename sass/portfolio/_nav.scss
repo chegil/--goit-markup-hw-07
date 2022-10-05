@@ -1,0 +1,38 @@
+/* 2 верхня частина для порфоліо навігація*/
+
+.porfolio {text-align: center;
+padding-top: 94px;
+padding-bottom: 94px;}
+
+.porfolio-list {
+display: flex;
+justify-content: center;
+margin-bottom: 50px;
+gap: 8px;
+padding: 0px;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+letter-spacing: 0.03em;
+}
+
+
+.porfolio-btn { border-radius: 4px;
+border: 0px;}
+.porfolio-btn { padding: 6px 22px;}
+
+.porfolio-btn {background: #F5F4FA;
+    color:var(--basic-colour);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2.15;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+
+.porfolio-btn:hover,
+.porfolio-btn:focus {background-color: var(--minor-colour);
+color: var(--text-wite);
+}

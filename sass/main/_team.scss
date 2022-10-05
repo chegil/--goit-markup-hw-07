@@ -1,0 +1,69 @@
+/* -- наша команда -- */
+ 
+.team {
+background-color: var(--button-colour);
+padding-top: 94px;
+padding-bottom: 94px;}
+
+.team-titel {
+    margin-bottom: 50px;
+    
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+   letter-spacing: 0.03em;
+    color:var(--basic-colour);}
+
+.team-lid {
+    padding: 0px;
+    display: flex;
+}
+
+.team-cart {
+    background-color: var(--text-wite);
+    box-shadow: var(--box-shadow-cart);
+}
+
+.team-men {
+        padding-top: 30px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        color:var(--basic-colour);}
+
+.team-text {margin-top: 10px;
+            padding-bottom: 15px;
+            text-align: center;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.2;
+            letter-spacing: 0.03em;
+            color:var(--contacts-coluor);}
+
+
+        .team .team-cart + .team-cart { margin-left: 30px;}
+        
+        
+        .social {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        padding: 0px;
+        gap: 10px;}
+
+        .social-svg { fill:var(--sicial-colour-);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+        .social-site {
+            display: flex;
+            padding: 12px;
+            border-radius: 50%;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); }
+
+        .team .social-site:hover ,
+        .team .social-site:focus { background-color: var(--button-active);}
+       
+        .team .social-site:hover use ,
+        .team .social-site:focus use{fill: #FFFFFF;}
