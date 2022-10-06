@@ -1,14 +1,16 @@
+@import "./utilst/variables";
+
 @import "./general/stylles";
 
 @import "./header/header";
   
-@import "./main/about";
-@import "./main/modal";
-@import "./main/send";
-@import "./main/about-us";
-@import "./main/work-us";
-@import "./main/team";
-@import "./main/company";
+@import "./studio/about";
+@import "./studio/modal";
+@import "./studio/send";
+@import "./studio/about-us";
+@import "./studio/work-us";
+@import "./studio/team";
+@import "./studio/company";
 
 @import "./footer/footer";
 @import "./footer/parts/fhirst";

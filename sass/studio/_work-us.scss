@@ -1,7 +1,7 @@
 /* -- чим ми займаємось-- */
-.work {padding-bottom: 94px;}
+.work {padding-bottom: 94px;
 
-.work-titel {
+&-titel {
     text-align: center;
    margin-bottom: 50px;
     
@@ -9,11 +9,11 @@
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: var(--basic-colour);}
+    color: $color-black-text;}
 
-.work-list { display: flex;
+&-list { display: flex;
          padding-left: 0px;
         margin: -15px;}
 
 
-.work-set {margin: 15px;}
+&-set {margin: 15px;} }

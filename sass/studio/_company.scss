@@ -3,36 +3,36 @@
 
 .client {
 padding-top: 94px;
-padding-bottom: 94px;}
+padding-bottom: 94px;
 
-.client-p { font-weight: 700;
+&-p { font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;}
+    color: $color-black-text} }
 
 .company {
 display: flex;
 justify-content: center;
 gap: 30px;
 margin-top: 50px;
-padding: 0px;}
+padding: 0px;
 
   
 
-.company-a {
+&-a {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 170px;
     height: 92px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid $color-icon-team;
     border-radius: 4px;
     cursor: pointer;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
-.company-svg {
+&-svg {
     width: 106px;
     height: 60px;
     fill: var(--company-colour--);
@@ -40,13 +40,13 @@ padding: 0px;}
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) }
   
 
-       .company-svg:hover ,
-       .company-svg:focus
-        {fill: var(--button-active);}
+       &-svg:hover ,
+       &-svg:focus
+        {fill: $color-button-active;}
     
-        .company-a:hover ,
-        .company-a:focus { border-color: #188CE8;} 
+        &-a:hover ,
+        &-a:focus { border-color: $color-button-active;} 
 
-        .company-a:focus svg ,
-        .company-a:hover svg {fill: var(--button-active);
-        }
+        &-a:focus svg ,
+        &-a:hover svg {fill: $color-button-active;
+        } }

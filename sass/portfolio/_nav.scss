@@ -2,9 +2,9 @@
 
 .porfolio {text-align: center;
 padding-top: 94px;
-padding-bottom: 94px;}
+padding-bottom: 94px;
 
-.porfolio-list {
+&-list {
 display: flex;
 justify-content: center;
 margin-bottom: 50px;
@@ -18,12 +18,12 @@ letter-spacing: 0.03em;
 }
 
 
-.porfolio-btn { border-radius: 4px;
+&-btn { border-radius: 4px;
 border: 0px;}
-.porfolio-btn { padding: 6px 22px;}
+&-btn { padding: 6px 22px;}
 
-.porfolio-btn {background: #F5F4FA;
-    color:var(--basic-colour);
+&-btn {background: $color-white-card;
+    color: $color-black-text;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -32,7 +32,7 @@ border: 0px;}
     cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
-.porfolio-btn:hover,
-.porfolio-btn:focus {background-color: var(--minor-colour);
-color: var(--text-wite);
-}
+&-btn:hover,
+&-btn:focus {background-color: $color-focus;
+color: $color-white-text;
+} }

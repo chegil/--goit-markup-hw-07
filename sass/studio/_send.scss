@@ -1,36 +1,36 @@
 /*-- ввод даних  */
 
 .send { padding: 40px;
-position: relative;}
+position: relative;
 
- .send-p {
+&-p {
 text-align: center;
 font-weight: 700;
 font-size: 20px;
 line-height: 23px;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: $color-black-text;
 margin-bottom: 12px;
 }
 
-.send-input{ 
+&-input{ 
 display: flex;
 flex-direction: column;
 position: relative;
 
 }
 
-.send-input label { 
+&-input label { 
     font-weight: 400;
         font-size: 12px;
         line-height: 14px;
         letter-spacing: 0.01em;
-        color: #757575;
+        color: $color-contackt;
         margin-bottom: 4px;
 }
     
-.send-field {
+&-field {
     
     width: 100%;
     max-width: 406px;
@@ -46,7 +46,7 @@ position: relative;
 
 
 
-.send-svg {
+&-svg {
     position: absolute;
     top: 38px;
     left: 14px;
@@ -57,16 +57,16 @@ position: relative;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 
-.send-box:focus-within + .send-focus {fill: var(--minor-colour); }
-.send-box:focus-within .send-field { border-color: var(--minor-colour);}
+&-box:focus-within + &-focus {fill: $color-focus; }
+&-box:focus-within &-field { border-color: $color-focus;}
 
-.send-box:hover + .send-focus {fill: var(--minor-colour);}
-.send-box:hover .send-field {border-color: var(--minor-colour);}
-
-
+&-box:hover + &-focus {fill: $color-focus;}
+&-box:hover &-field {border-color: $color-focus;}
 
 
-.send-textarea {
+
+
+&-textarea {
     box-sizing: border-box;
     max-width: 448px;
     max-height: 120px;
@@ -75,7 +75,7 @@ position: relative;
     resize: none;
  }
 
- .send-textarea { 
+&-textarea { 
     font-weight: 400;
         font-size: 12px;
         line-height: 14px;
@@ -86,7 +86,7 @@ position: relative;
 
 /*-- нижній рядок  */
 
-.send-check { 
+&-check { 
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -99,32 +99,33 @@ position: relative;
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
-        color: #757575;}
+        color: $color-contackt}
     
-.send-checkbox:checked + .send-span { 
-    background-color: var(--minor-colour);
+&-checkbox:checked + &-span 
+{ 
+    background-color: $color-focus;
     background-image: url(../img/like.svg);
     background-size: contain;
-    border-color: var(--minor-colour);}
+    border-color: $color-focus;}
         
 
- .send-checkbox {
+&-checkbox {
      appearance: none;
      position: absolute;}
   
-.send-span {
+&-span {
      width: 13px;
     height: 13px;
-    border: 2px solid #212121;
+    border: 2px solid $color-black-text;
     border-radius: 4px;}
 
-.send-check__a {
-    color: var(--minor-colour);
+&-check__a {
+    color: $color-focus;
     text-decoration: underline;
 }
 
 
-    .send-btn {
+    &-btn {
      position: absolute;
      top: 491px;
      left: 164px;
@@ -132,7 +133,7 @@ position: relative;
      height: 50px;
 
 
-     background: #2196F3;
+     background: $color-focus;
      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
      border-radius: 4px;
      color: var(--text-wite);
@@ -140,4 +141,6 @@ position: relative;
      cursor: pointer;
      transition: background-color 250ms cubic-bezier(0.4 , 0 , 0.2 , 1 );}
 
-     .modal-btn__send:hover { background-color: var(--button-active);}        
+           &-btn:hover { background-color: $color-button-active; }       }
+
+           

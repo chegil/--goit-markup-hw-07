@@ -1,4 +1,6 @@
-.fhirst-logo {
+.fhirst {
+
+&-logo {
     height: 31px;
     margin-bottom: 20px;
     display: inline-block;
@@ -7,38 +9,38 @@
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: var(--minor-colour);
+    color: $color-focus;
     text-decoration: none;}
 
-    .fhirst-logo__colour {
-    color: var(--text-wite);}
+    &-logo__colour {
+    color: $color-white-text;}
 
-    .fhirst-adres { font-family:normal;
+    &-adres { font-family:normal;
     width: 240px;
     margin: 0px;}
 
-    .fhirst-titel {
+    &-titel {
     font-family: 'Roboto';
     font-style: normal;
      padding: 0px;} 
 
-   .fhirst-contackt {
+     &-contackt {
 
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color:var(--footer-colour);
+    color:$colour-fhirst-contackt;
     text-decoration: none;
     font-style: normal;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
     
-    .fhirst-contackt:hover ,
-    .fhirst-contackt:focus {color: var(--minor-colour);
+    &-contackt:hover ,
+    &-contackt:focus {color: $color-focus
     }
      
 
-    .fhirst-location {
+    &-location {
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
@@ -48,10 +50,10 @@
         font-style: normal;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
-    .fhirst-location:hover ,
-    .fhirst-location:focus {color: var(--minor-colour);
+    &-location:hover ,
+    &-location:focus {color: var(--minor-colour);
     }
      
       
-    .fhirst-titel li{margin-bottom: 9px;}
-    .fhirst-titel li:last-child{margin-bottom: 0px;}
+    &-titel li{margin-bottom: 9px;}
+    &-titel li:last-child{margin-bottom: 0px;} }

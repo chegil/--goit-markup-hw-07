@@ -1,21 +1,21 @@
 /*-- про нас */
   
-
+.qualities { 
   
-.qualities-svg { 
+&-svg { 
 padding-top: 25px;
     width: 65px;
     height: 70px;
 }
   
-.qualities-me {
+&-me {
       display: flex;
       padding-top: 94px;
       padding-bottom: 94px;
       padding-left: 0px;
   }
 
-.qualities-titel {
+&-titel {
     
     margin-bottom: 10px;
     font-weight: 700;
@@ -23,40 +23,41 @@ padding-top: 25px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--basic-colour);
+    color: $color-black-text;
     text-transform: uppercase;}
 
-    .qualities-text {
+&-text {
         font-weight: 400;
         font-size: 14px;
         line-height: 2.0;
         letter-spacing: 0.03em;
-        color: var(--contacts-coluor);}
+        color: $color-contackt ;}
 
   
 
-    .qualities-list { width: 270px;}
-    .qualities-list:not(:last-child) {margin-right: 30px;}
+&-list { width: 270px;}
+&-list:not(:last-child) {margin-right: 30px;}
 
-    .qualities-block {
+&-block {
         display: flex;
         justify-content: center;
         align-items: flex-end;
         width: 270px;
         height: 120px;
-        background-color: var(--button-colour);
+        background-color: $color-white-text;
         border-radius: 4px;
         }
 
-    .qualities-block { 
+&-block { 
         text-align: center;
         width: 270px;
         height: 120px; 
-        background-color: var(--button-colour);
+        background-color: $color-white-text;
         border-radius: 4px ;
         
         margin-bottom: 30px;}
         
-        .qualities-svg { width: 65px;
+&-svg { width: 65px;
         height: 70px;
         margin: 25px;}
+        }
