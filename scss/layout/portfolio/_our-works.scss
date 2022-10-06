@@ -47,7 +47,7 @@ transform: translateY(100%);
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.03em;
-    color: var(--text-wite);
+    color: $color-white-text;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
