@@ -1,0 +1,20 @@
+ .social {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        padding: 0px;
+        gap: 10px;
+
+        &-svg { fill:$color-icon-team;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+         &-site {
+            display: flex;
+            padding: 12px;
+            border-radius: 50%;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); }
+
+        &-site:hover ,
+        &-site:focus { background-color: $color-button-active;}
+       
+        &-site:hover use ,
+        &-site:focus use{fill: $color-white-text} }
